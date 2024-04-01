@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "abc"
+version = "0.1.0"
+description = ""
+authors = ["ekoi <eko.indarto@dans.knaw.nl>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+dynaconf = "^3.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
